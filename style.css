@@ -1,0 +1,53 @@
+body{
+    background-image: url("bckground.JPG");
+    background-repeat: no-repeat;
+    background-size: cover;   
+background-color: rgb(255, 255, 255);
+color: black;
+}
+
+
+body .container{
+    opacity: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    float: right;
+    padding-right: 100px;
+    padding-left: 600px;
+
+}
+
+
+body .container form{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 450PX;
+    border-radius: 15px 50px 30px;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+
+}
+
+body .container .form-control{
+    background-color: rgb(199, 231, 248);
+    color: black;
+    opacity: 90%;
+}
+
+body .container .form-select{
+    background-color: rgb(199, 231, 248);
+    color: black;
+    opacity: 90%;
+    padding: 8px;
+    margin-bottom: 10px;
+    
+}
+
+body .container .form-text{
+    color: rgb(34, 33, 33);
+
+}
+
